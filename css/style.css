@@ -1,0 +1,35 @@
+:root{
+    --primary-bg-color: #fff;
+    --primary-font-color: #000;
+    --btn-bg-color: #ddd;
+    --btn-font-color: #000;    
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-font-color);
+}
+
+.create_button{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+#theme-div-boarder{
+    border: solid #afafaf 1px;
+    width: 250px;
+    float: left;
+    margin-left: 0.5rem;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-font-color);
+}
+
+#btn{
+    background-color: var(--btn-bg-color);
+    color: var(--btn-font-color);
+}
+
+input{
+    margin-bottom: 1.5rem;
+}
