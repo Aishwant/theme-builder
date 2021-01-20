@@ -33,3 +33,10 @@ body{
 input{
     margin-bottom: 1.5rem;
 }
+
+.modal-content{
+    background-color: var(--primary-bg-color)!important;
+    color: var(--primary-font-color)!important;
+    border-color: #cfcfcf;
+}
+
